@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">eoKey</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="create_account_button">Create Account</string>
+    <string name="signin_button">Sign In</string>
+
+    <string name="create">Create contact</string>
+    <string name="list">List contacts</string>
+    <string name="lastname">Last Name</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="cellphone">Cellphone</string>
+    <string name="save">Save</string>
+    <string name="done">Saved successfully</string>
+    <string name="empty_cell">Cant be blank space</string>
+    <string name="create_account_success">Create Account Success</string>
+    <string name="create_account_unsuccess">Create Account Unsuccess</string>
+    <string name="authentication_success">Authentication Success</string>
+    <string name="authentication_unsuccess">Authentication Unsuccess</string>
+
+    <string name="no_records">No records to show</string>
+    <string name="welcome">Welcome</string>
+    <string name="signout_button">Sign Out</string>
+    <string name="login">Login</string>
+    <string name="login_google">Login With Google</string>
+    <string name="google_authentication_success">Google Authentication Success</string>
+    <string name="google_authentication_unsuccess">Google Authentication Unsuccess</string>
+    <string name="google_sign_in_unsuccess">Google Sign In Unsuccess</string>
+    <string name="error_google_sign_out">Error In Google Sign Out</string>
+
+
+    <string name="txtCreateMessage">Create a message</string>
+    <string name="txtAdviceMessage">To create this message it is necessary to fill in all the fields</string>
+    <string name="txtCategorySelection">Select Category</string>
+    <string name="txtMessageName">Put a name to indentify the message</string>
+    <string name="txtMessageText">Write the text message</string>
+    <string name="txtCreateProduct">Create a Product</string>
+    <string name="txtAdviceMessageProduct">To create a product it is necessary to fill all the fields</string>
+    <string name="txtProductName">Put a name to identify the product</string>
+    <string name="txtProductPrice">Price</string>
+    <string name="txtProductDescription">Write a description for the product</string>
+    <string name="txtStore">Store</string>
+    <string name="txtMenuStoreMessage">Hello, Welcome to your store. You can start creating all the message and products that you need to have close.</string>
+    <string name="txtYourMessage">Your Messages</string>
+    <string name="txtListMessage">Message Created</string>
+    <string name="btnListAllMessages">All</string>
+    <string name="btnListNewMessages">New</string>
+    <string name="btnAddMessages">Create Message</string>
+    <string name="txtYourProducts">Your Products</string>
+    <string name="txtListProducts">Products Created</string>
+    <string name="btnListAllProducts">All</string>
+    <string name="btnListNewProducts">New</string>
+    <string name="btnCreateProducts">Create Product</string>
+    <string name="btnSignOut">Salir</string>
+    <string name="btnCancel">Cancel</string>
+    <string name="btnSave">Save</string>
+
+    <string-array name="Menu">
+        <item>@string/create</item>
+        <item>@string/list</item>
+    </string-array>
+
+</resources>

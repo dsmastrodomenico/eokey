@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "468375179632",
+    "firebase_url": "https://eokey-b77e8.firebaseio.com",
+    "project_id": "eokey-b77e8",
+    "storage_bucket": "eokey-b77e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:468375179632:android:02733f075ca99e9f",
+        "android_client_info": {
+          "package_name": "com.dsmastrodomenico.eokey"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "468375179632-pbpvjn11nsa5ssqn6567c96fs0sut9rs.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dsmastrodomenico.eokey",
+            "certificate_hash": "23471adcf79f6f6ae9da329703f89e74f540749d"
+          }
+        },
+        {
+          "client_id": "468375179632-0k7cd5aom8l16ad98aa5k10r2gnoinie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCE-JF1M6PUYLHhjg53j0VbeapzQuspyxk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "468375179632-0k7cd5aom8l16ad98aa5k10r2gnoinie.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

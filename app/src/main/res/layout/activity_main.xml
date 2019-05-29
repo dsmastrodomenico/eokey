@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/round_bg_"
+        android:layout_marginTop="10sp"
+        android:layout_marginBottom="10sp"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        >
+
+        <TextView
+            android:id="@+id/txtStore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="30sp"
+            android:layout_marginRight="30sp"
+            android:textColor="@color/colorTitle"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:text="@string/txtStore"
+            />
+
+        <TextView
+            android:id="@+id/txtMenuStoreHello"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="30sp"
+            android:textColor="@color/colorTitle"
+            android:textSize="15sp"
+             />
+
+        <TextView
+            android:id="@+id/txtMenuStoreMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="30sp"
+            android:textColor="@color/colorTitle"
+            android:textSize="15sp"
+            android:text="@string/txtMenuStoreMessage" />
+
+        <TextView
+            android:id="@+id/txtYourMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="30sp"
+            android:textColor="@color/colorTitle"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="@string/txtYourMessage" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtListMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30sp"
+                android:layout_weight="1"
+                android:textColor="@color/colorTitle"
+                android:textSize="15sp"
+                android:text="@string/txtListMessage" />
+
+            <Button
+                android:id="@+id/btnListAllMessages"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="22dp"
+                android:layout_marginLeft="10sp"
+                android:layout_marginRight="10sp"
+                android:background="@drawable/round_bg_"
+                style="?android:attr/borderlessButtonStyle"
+                android:text="@string/btnListAllMessages" />
+
+            <Button
+                android:id="@+id/btnListNewMessages"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:layout_weight="1"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/round_bg_"
+                style="?android:attr/borderlessButtonStyle"
+                android:text="@string/btnListNewMessages" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnAddMessages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginRight="260sp"
+            android:background="@drawable/round_bg_"
+            style="?android:attr/borderlessButtonStyle"
+            android:text="@string/btnAddMessages" />
+
+        <TextView
+            android:id="@+id/txtYourProducts"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="20sp"
+            android:layout_marginRight="30sp"
+            android:textColor="@color/colorTitle"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:text="@string/txtYourProducts" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txtListProducts"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30sp"
+                android:layout_marginRight="30sp"
+                android:text="@string/txtListProducts"
+                android:textColor="@color/colorTitle"
+                android:textSize="15sp" />
+
+            <Button
+                android:id="@+id/btnListAllProducts"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="22dp"
+                android:layout_marginRight="10sp"
+                android:background="@drawable/round_bg_"
+                style="?android:attr/borderlessButtonStyle"
+                android:text="@string/btnListAllProducts"
+                />
+
+            <Button
+                android:id="@+id/btnListNewProducts"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:layout_height="22dp"
+                android:layout_marginLeft="5sp"
+                android:layout_marginRight="30dp"
+                android:background="@drawable/round_bg_"
+                style="?android:attr/borderlessButtonStyle"
+                android:text="@string/btnListNewProducts"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnCreateProducts"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="match_parent"
+            android:layout_height="113dp"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginRight="30sp"
+            android:background="@drawable/round_bg_"
+            android:text="@string/btnCreateProducts" />
+
+        <Button
+            android:id="@+id/btnSignOut"
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginRight="260sp"
+            android:background="@drawable/round_bg_"
+            android:text="@string/btnSignOut" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
